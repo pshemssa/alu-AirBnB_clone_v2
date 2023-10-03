@@ -22,7 +22,6 @@ class test_Place(test_basemodel):
         """ """
         new = self.value()
         self.assertEqual(type(new.user_id), str)
-
     def test_name(self):
         """ """
         new = self.value()
